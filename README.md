@@ -22,10 +22,13 @@ Taking a glimpse on the general monitoring dashboard, it has a multitude of modu
 <img src="https://i.imgur.com/3UYMpr8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2>Stup Process</h2>
+<h2>Setup Process</h2>
+I deployed Wazuh on Ubuntu using a Linode cloud Virtual Machine on: https://www.linode.com/
+<img src="https://i.imgur.com/U4tnv6Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once the linode is running we can try and connect to it with the SSH Access command
+<img src="https://i.imgur.com/hpP5Ivs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+
 
 <h2>Environments Used </h2>
 
