@@ -25,8 +25,25 @@ Taking a glimpse on the general monitoring dashboard, it has a multitude of modu
 <h2>Setup Process</h2>
 I deployed Wazuh on Ubuntu using a Linode cloud Virtual Machine on: https://www.linode.com/
 <img src="https://i.imgur.com/U4tnv6Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Once the linode is running we can try and connect to it with the SSH Access command
+Once the linode is running we can try and connect to it with the SSH Access command on the machine you wish to set the agent on.
 <img src="https://i.imgur.com/hpP5Ivs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Using Windows PowerShell, we paste the copied command
+<img src="https://i.imgur.com/3NfMgdW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After the installation has run for a few minute we type :
+
+ls -al
+
+the .deployment-secrets.txt file will contain our different logins and passwords.
+
+Using the command “cat .deployment-secrets.txt” we open the file and see the first admin login that we will use in order to connect to our Wazuh dashboard
+
+<img src="https://i.imgur.com/JSbNMkA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+We can grab the Reverse DNS address and paste in the the browser to see the login page
+<img src="https://i.imgur.com/J3clGQP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+We then will be prompted with the login page
+<img src="https://i.imgur.com/9bhxvt5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 
