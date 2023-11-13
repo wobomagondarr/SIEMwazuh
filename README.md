@@ -60,6 +60,7 @@ In the Wazuh dashboard you can see the agent has been activated and now monitore
 <img src="https://i.imgur.com/skMcJZi.png" height="80%" width="80%"/>
 
 We can see the MITRE attack framework and it will show how our machine is vulnerable to certain tactics and how it’s being actively attacked. Another thing we certainly can see is the different compliances standards(NIST, HIPAA, GDRP, PCI, GPG) and how we stand on those.
+
 <img src="https://i.imgur.com/8HHLK0D.png" height="80%" width="80%"/>
 
 Another important section is the Security Configuration Assessment
